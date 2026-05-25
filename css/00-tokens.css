@@ -1,0 +1,58 @@
+/* =============================================================
+   00-tokens.css — Design tokens for Godin London Incorporated
+   ============================================================= */
+
+:root {
+    /* Brand — Teal family */
+    --color-primary:        #0d5c63;
+    --color-primary-mid:    #0e8c96;
+    --color-primary-light:  #7ecfd4;
+
+    /* Accent */
+    --color-accent:         #c17f24;
+    --color-accent-light:   #e0a84d;
+
+    /* Neutrals */
+    --color-text:           #1a1a1a;
+    --color-text-secondary: #444444;
+    --color-text-light:     #777777;
+    --color-bg:             #ffffff;
+    --color-bg-alt:         #f4f4f4;
+    --color-border:         #dddddd;
+
+    /* Typography */
+    --font-heading:         'Georgia', serif;
+    --font-body:            'Open Sans', sans-serif;
+    --font-mono:            'Courier New', monospace;
+
+    /* Font sizes */
+    --text-xs:              0.75rem;
+    --text-sm:              0.875rem;
+    --text-base:            1rem;
+    --text-lg:              1.25rem;
+    --text-xl:              1.5rem;
+    --text-2xl:             2rem;
+    --text-3xl:             2.75rem;
+
+    /* Spacing */
+    --space-xs:             0.25rem;
+    --space-sm:             0.5rem;
+    --space-md:             1rem;
+    --space-lg:             2rem;
+    --space-xl:             4rem;
+    --space-2xl:            6rem;
+
+    /* Layout */
+    --max-width:            1200px;
+    --max-width-narrow:     800px;
+    --border-radius:        4px;
+    --border-radius-lg:     8px;
+
+    /* Shadows */
+    --shadow-sm:            0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md:            0 4px 12px rgba(0,0,0,0.12);
+    --shadow-lg:            0 8px 24px rgba(0,0,0,0.15);
+
+    /* Transitions */
+    --transition:           all 0.2s ease;
+}
